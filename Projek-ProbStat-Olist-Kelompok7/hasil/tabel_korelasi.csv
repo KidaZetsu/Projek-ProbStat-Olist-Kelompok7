@@ -1,0 +1,7 @@
+Pasangan,Pearson r,p (Pearson),Spearman rho,p (Spearman),Kekuatan (Spearman),Arah
+Harga_Produk - Skor_Kepuasan,-0.0018388389421237017,0.5631079821167513,0.004848231927246573,0.12736980834439562,sangat lemah,positif
+Ongkos_Kirim - Skor_Kepuasan,-0.03211209558458462,5.502246650506958e-24,-0.04351802503675131,1.1505087654881812e-42,sangat lemah,negatif
+Waktu_Pengiriman_Hari - Skor_Kepuasan,-0.3186454425347906,0.0,-0.22534705667869653,0.0,lemah,negatif
+Ongkos_Kirim - Waktu_Pengiriman_Hari,0.2135462000353721,0.0,0.4230510235955499,0.0,sedang,positif
+Harga_Produk - Ongkos_Kirim,0.4169701221008716,0.0,0.43461644613458644,0.0,sedang,positif
+Harga_Produk - Waktu_Pengiriman_Hari,0.060835208119785336,1.0129815876978359e-81,0.11001059394882853,8.253560195865688e-264,sangat lemah,positif
