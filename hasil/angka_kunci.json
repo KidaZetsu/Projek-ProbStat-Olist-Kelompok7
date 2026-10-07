@@ -1,0 +1,463 @@
+{
+ "audit": {
+  "Jumlah baris (item pesanan)": 98884,
+  "Jumlah ID_Pesanan unik": 95830,
+  "Jumlah variabel (kolom)": 5,
+  "Missing value (total)": 0,
+  "Baris duplikat murni": 0,
+  "Baris dengan ID_Pesanan berulang": 3054,
+  "Waktu pengiriman = 0 hari": 13,
+  "Ongkos kirim = 0": 336,
+  "Skor di luar rentang 1-5": 0
+ },
+ "audit_outlier": {
+  "Harga_Produk": {
+   "Q1": 40.5,
+   "Q3": 139.0,
+   "IQR": 98.5,
+   "Batas bawah": -107.25,
+   "Batas atas": 286.75,
+   "Jumlah outlier": 7393.0,
+   "Persen outlier (%)": 7.4764370373366775,
+   "Min": 0.85,
+   "Maks": 6735.0
+  },
+  "Ongkos_Kirim": {
+   "Q1": 13.15,
+   "Q3": 21.22,
+   "IQR": 8.069999999999999,
+   "Batas bawah": 1.0450000000000035,
+   "Batas atas": 33.324999999999996,
+   "Jumlah outlier": 10744.0,
+   "Persen outlier (%)": 10.865256259860038,
+   "Min": 0.0,
+   "Maks": 409.68
+  },
+  "Waktu_Pengiriman_Hari": {
+   "Q1": 6.0,
+   "Q3": 15.0,
+   "IQR": 9.0,
+   "Batas bawah": -7.5,
+   "Batas atas": 28.5,
+   "Jumlah outlier": 4974.0,
+   "Persen outlier (%)": 5.030136321346223,
+   "Min": 0.0,
+   "Maks": 208.0
+  }
+ },
+ "n_item": 98884,
+ "n_pesanan": 95830,
+ "desk_Harga_Produk": {
+  "N": 98884.0,
+  "Mean": 123.99641478904576,
+  "Median": 78.9,
+  "Modus": 59.9,
+  "Std Dev": 186.69209669940727,
+  "Variansi": 34853.93897002084,
+  "Min": 0.85,
+  "Q1": 40.5,
+  "Q3": 139.0,
+  "Maks": 6735.0,
+  "IQR": 98.5,
+  "Skewness": 7.632640389747307,
+  "Kurtosis (excess)": 108.64203136559989,
+  "Koef. Variasi (%)": 150.56249571169073
+ },
+ "desk_Ongkos_Kirim": {
+  "N": 98884.0,
+  "Mean": 20.088220136725862,
+  "Median": 16.32,
+  "Modus": 15.1,
+  "Std Dev": 15.774781331399106,
+  "Variansi": 248.84372605345774,
+  "Min": 0.0,
+  "Q1": 13.15,
+  "Q3": 21.22,
+  "Maks": 409.68,
+  "IQR": 8.069999999999999,
+  "Skewness": 5.549381720414602,
+  "Kurtosis (excess)": 58.301852583714144,
+  "Koef. Variasi (%)": 78.52752122403915
+ },
+ "desk_Waktu_Pengiriman_Hari": {
+  "N": 98884.0,
+  "Mean": 11.997947089519032,
+  "Median": 10.0,
+  "Modus": 7.0,
+  "Std Dev": 9.428470436094555,
+  "Variansi": 88.89605476430906,
+  "Min": 0.0,
+  "Q1": 6.0,
+  "Q3": 15.0,
+  "Maks": 208.0,
+  "IQR": 9.0,
+  "Skewness": 3.7994357523262905,
+  "Kurtosis (excess)": 39.01508393327262,
+  "Koef. Variasi (%)": 78.58403079915999
+ },
+ "desk_Skor_Kepuasan": {
+  "N": 98884.0,
+  "Mean": 4.128574895837547,
+  "Median": 5.0,
+  "Modus": 5.0,
+  "Std Dev": 1.3075280302213959,
+  "Variansi": 1.7096295498146437,
+  "Min": 1.0,
+  "Q1": 4.0,
+  "Q3": 5.0,
+  "Maks": 5.0,
+  "IQR": 1.0,
+  "Skewness": -1.4317763970207176,
+  "Kurtosis (excess)": 0.7674821353948627,
+  "Koef. Variasi (%)": 31.67020250836804
+ },
+ "frek_skor": {
+  "1": 10.308037700740261,
+  "2": 3.2260021843776547,
+  "3": 8.352210671089358,
+  "4": 19.527931717972574,
+  "5": 58.58581772582016
+ },
+ "kor_Harga_Produk_Skor_Kepuasan": {
+  "Pearson r": -0.0018388389421237017,
+  "p (Pearson)": 0.5631079821167513,
+  "Spearman rho": 0.004848231927246573,
+  "p (Spearman)": 0.12736980834439562,
+  "Kekuatan (Spearman)": "sangat lemah",
+  "Arah": "positif"
+ },
+ "kor_Ongkos_Kirim_Skor_Kepuasan": {
+  "Pearson r": -0.03211209558458462,
+  "p (Pearson)": 5.502246650506958e-24,
+  "Spearman rho": -0.04351802503675131,
+  "p (Spearman)": 1.1505087654881812e-42,
+  "Kekuatan (Spearman)": "sangat lemah",
+  "Arah": "negatif"
+ },
+ "kor_Waktu_Pengiriman_Hari_Skor_Kepuasan": {
+  "Pearson r": -0.3186454425347906,
+  "p (Pearson)": 0.0,
+  "Spearman rho": -0.22534705667869653,
+  "p (Spearman)": 0.0,
+  "Kekuatan (Spearman)": "lemah",
+  "Arah": "negatif"
+ },
+ "kor_Ongkos_Kirim_Waktu_Pengiriman_Hari": {
+  "Pearson r": 0.2135462000353721,
+  "p (Pearson)": 0.0,
+  "Spearman rho": 0.4230510235955499,
+  "p (Spearman)": 0.0,
+  "Kekuatan (Spearman)": "sedang",
+  "Arah": "positif"
+ },
+ "kor_Harga_Produk_Ongkos_Kirim": {
+  "Pearson r": 0.4169701221008716,
+  "p (Pearson)": 0.0,
+  "Spearman rho": 0.43461644613458644,
+  "p (Spearman)": 0.0,
+  "Kekuatan (Spearman)": "sedang",
+  "Arah": "positif"
+ },
+ "kor_Harga_Produk_Waktu_Pengiriman_Hari": {
+  "Pearson r": 0.060835208119785336,
+  "p (Pearson)": 1.0129815876978359e-81,
+  "Spearman rho": 0.11001059394882853,
+  "p (Spearman)": 8.253560195865688e-264,
+  "Kekuatan (Spearman)": "sangat lemah",
+  "Arah": "positif"
+ },
+ "asumsi": {
+  "bp_lm": 4752.823568554511,
+  "bp_p": 0.0,
+  "skew_res": -1.2744953399201233,
+  "kurt_res": 1.2668972397562488,
+  "dw": 1.8688843926721102,
+  "vif": {
+   "Harga_Produk": 1.2116772890615095,
+   "Ongkos_Kirim": 1.2648737103341796,
+   "Waktu_Pengiriman_Hari": 1.048839275848336
+  }
+ },
+ "reg3": {
+  "r2": 0.1028944368822654,
+  "adj": 0.10286721887367578,
+  "F": 3780.3807924824837,
+  "pF": 0.0,
+  "tab": {
+   "Konstanta": {
+    "Koefisien (B)": 4.608841409533968,
+    "Galat baku": 0.007578449273276141,
+    "t": 608.1509875359473,
+    "p-value": 0.0,
+    "CI 95% bawah": 4.593987740079765,
+    "CI 95% atas": 4.62369507898817,
+    "Beta terstandar": NaN,
+    "Galat baku HC3": 0.010310543400057309,
+    "p-value HC3": 0.0
+   },
+   "Harga_Produk": {
+    "Koefisien (B)": 1.982429144069755e-05,
+    "Galat baku": 2.322127729576735e-05,
+    "t": 0.8537123599273764,
+    "p-value": 0.39326645216488765,
+    "CI 95% bawah": -2.568913285205516e-05,
+    "CI 95% atas": 6.533771573345026e-05,
+    "Beta terstandar": 0.0028305615245719385,
+    "Galat baku HC3": 2.413801026047644e-05,
+    "p-value HC3": 0.4114834365103425
+   },
+   "Ongkos_Kirim": {
+    "Koefisien (B)": 0.0030214249785937026,
+    "Galat baku": 0.00028078815883962426,
+    "t": 10.760514229232252,
+    "p-value": 5.472774298464116e-27,
+    "CI 95% bawah": 0.0024710835633960956,
+    "CI 95% atas": 0.0035717663937913095,
+    "Beta terstandar": 0.03645223447980419,
+    "Galat baku HC3": 0.0003265758874554119,
+    "p-value HC3": 2.2489943855901935e-20
+   },
+   "Waktu_Pengiriman_Hari": {
+    "Koefisien (B)": -0.04529272389708266,
+    "Galat baku": 0.0004277911356889341,
+    "t": -105.87578871670918,
+    "p-value": 0.0,
+    "CI 95% bawah": -0.04613118937937712,
+    "CI 95% atas": -0.04445425841478819,
+    "Beta terstandar": -0.3266018764901832,
+    "Galat baku HC3": 0.0008946307414010895,
+    "p-value HC3": 0.0
+   }
+  }
+ },
+ "reg2": {
+  "r2": 0.10288782449576839,
+  "adj": 0.10286967920647105,
+  "tab": {
+   "Konstanta": {
+    "Koefisien (B)": 4.60944379903238,
+    "Galat baku": 0.007545518488603585,
+    "t": 610.884965161013,
+    "p-value": 0.0,
+    "CI 95% bawah": 4.594654673522014,
+    "CI 95% atas": 4.6242329245427465,
+    "Beta terstandar": NaN,
+    "Galat baku HC3": 0.010262099046329435,
+    "p-value HC3": 0.0
+   },
+   "Ongkos_Kirim": {
+    "Koefisien (B)": 0.003120734185417653,
+    "Galat baku": 0.0002555582147569059,
+    "t": 12.211441484619003,
+    "p-value": 2.8587797474835934e-34,
+    "CI 95% bawah": 0.0026198431573255126,
+    "CI 95% atas": 0.0036216252135097935,
+    "Beta terstandar": 0.037650358715486824,
+    "Galat baku HC3": 0.00029332081080998883,
+    "p-value HC3": 2.0209843395078603e-26
+   },
+   "Waktu_Pengiriman_Hari": {
+    "Koefisien (B)": -0.045304325352004654,
+    "Galat baku": 0.00042757465089987497,
+    "t": -105.95652772365487,
+    "p-value": 0.0,
+    "CI 95% bawah": -0.04614236652661177,
+    "CI 95% atas": -0.044466284177397536,
+    "Beta terstandar": -0.32668553356844043,
+    "Galat baku HC3": 0.0008936082622490503,
+    "p-value HC3": 0.0
+   }
+  }
+ },
+ "hipotesis": {
+  "mean_tinggi": 10.602055876336708,
+  "mean_rendah": 16.979992606967933,
+  "median_tinggi": 9.0,
+  "median_rendah": 13.0,
+  "n_tinggi": 77242,
+  "n_rendah": 21642,
+  "sd_tinggi": 7.26828233415962,
+  "sd_rendah": 13.632966864797186,
+  "levene_W": 6839.654140538973,
+  "levene_p": 0.0,
+  "welch_t": 66.23677949809114,
+  "welch_df": 25180.452988080655,
+  "welch_p": 0.0,
+  "selisih": 6.377936730631225,
+  "ci_lo": 6.189208412516099,
+  "ci_hi": 6.5666650487463505,
+  "cohen_d": 0.7045727054895972,
+  "mw_U": 1081027058.0,
+  "mw_p": 0.0,
+  "cles": 0.6466743890457646
+ },
+ "anova": {
+  "F": 2888.4647737440746,
+  "p": 0.0,
+  "eta2": 0.10462338102683338,
+  "H": 5633.763795925472,
+  "p_kw": 0.0
+ },
+ "pmf": {
+  "E": 4.128574895837547,
+  "Var": 1.7096122605711888,
+  "p_tinggi": 0.7811374944379272,
+  "p_rendah": 0.21886250556207273,
+  "p5": 0.5858581772582016,
+  "p1": 0.10308037700740261
+ },
+ "binom": {
+  "E(X) = n*p": 4.377250111241454,
+  "SD(X)": 1.849117136479809,
+  "P(X = 0)": 0.007154012374465606,
+  "P(X = 3)": 0.17938502505584222,
+  "P(X >= 5)": 0.45305684191676454,
+  "P(X <= 2)": 0.15394940296992685,
+  "p": 0.21886250556207273
+ },
+ "kondisional": {
+  "0-7 hari": {
+   "Jumlah item": 34855.0,
+   "Ulasan rendah": 5297.0,
+   "P(rendah | kategori)": 0.1519724573231961,
+   "P(skor 5 | kategori)": 0.6693731171998278
+  },
+  "8-14 hari": {
+   "Jumlah item": 37313.0,
+   "Ulasan rendah": 6756.0,
+   "P(rendah | kategori)": 0.1810629003296438,
+   "P(skor 5 | kategori)": 0.6138343204781176
+  },
+  "15-21 hari": {
+   "Jumlah item": 15675.0,
+   "Ulasan rendah": 3660.0,
+   "P(rendah | kategori)": 0.23349282296650717,
+   "P(skor 5 | kategori)": 0.5375438596491228
+  },
+  "> 21 hari": {
+   "Jumlah item": 11041.0,
+   "Ulasan rendah": 5929.0,
+   "P(rendah | kategori)": 0.5369984602843946,
+   "P(skor 5 | kategori)": 0.29625939679376867
+  }
+ },
+ "chi2": {
+  "chi2": 7780.012991427191,
+  "df": 3,
+  "p": 0.0,
+  "cramer_v": 0.2804963072574202
+ },
+ "telat": {
+  "ambang": 15.0,
+  "p_telat": 0.23750050564297562,
+  "p_r_telat": 0.3806259314456036,
+  "p_r_tidak": 0.16847703550444967,
+  "rr": 2.2592155085465686,
+  "p_telat_r": 0.41303946030865907,
+  "bayes": 0.3806259314456035,
+  "p_rendah": 0.21886250556207273
+ },
+ "fit": {
+  "ks_ln": 0.07340599080457039,
+  "ks_gamma": 0.05510715263924504,
+  "p20_ln": 0.14975534013131286,
+  "p20_gamma": 0.1493485688379329,
+  "p20_emp": 0.12712524400481434
+ },
+ "clt": {
+  "5": {
+   "se_teori": 0.5847413548862759,
+   "se_sim": 0.5928706988880459
+  },
+  "30": {
+   "se_teori": 0.23871965849584517,
+   "se_sim": 0.23553355939228704
+  },
+  "200": {
+   "se_teori": 0.09245572617667303,
+   "se_sim": 0.09326940200837573
+  }
+ },
+ "ci": {
+  "Harga_Produk": {
+   "Mean": 123.99641478904576,
+   "SE": 0.5936943559181508,
+   "CI 95% bawah": 122.83278099031386,
+   "CI 95% atas": 125.16004858777765
+  },
+  "Ongkos_Kirim": {
+   "Mean": 20.088220136725862,
+   "SE": 0.05016494435419984,
+   "CI 95% bawah": 19.98989744899915,
+   "CI 95% atas": 20.186542824452573
+  },
+  "Waktu_Pengiriman_Hari": {
+   "Mean": 11.997947089519032,
+   "SE": 0.029983217189226922,
+   "CI 95% bawah": 11.939180344360832,
+   "CI 95% atas": 12.056713834677232
+  },
+  "Skor_Kepuasan": {
+   "Mean": 4.128574895837547,
+   "SE": 0.004158033604374237,
+   "CI 95% bawah": 4.120425199971177,
+   "CI 95% atas": 4.136724591703916
+  },
+  "Proporsi ulasan rendah": {
+   "Mean": 0.21886250556207273,
+   "SE": 0.0013148808871193019,
+   "CI 95% bawah": 0.2162853390233189,
+   "CI 95% atas": 0.22143967210082657
+  }
+ },
+ "sens": {
+  "Data utama (item pesanan)": {
+   "N": 98884.0,
+   "rho Waktu": -0.22534705667869653,
+   "rho Ongkir": -0.04351802503675131,
+   "rho Harga": 0.004848231927246573,
+   "B Waktu": -0.04529272389708266,
+   "B Ongkir": 0.0030214249785937026,
+   "B Harga": 1.982429144069755e-05,
+   "R2": 0.1028944368822654,
+   "Selisih waktu (hari)": 6.377936730631225,
+   "p Welch": 0.0
+  },
+  "Satu baris per pesanan": {
+   "N": 95830.0,
+   "rho Waktu": -0.2346338462997751,
+   "rho Ongkir": -0.06887145159316584,
+   "rho Harga": -0.012205332674792724,
+   "B Waktu": -0.04558581067373306,
+   "B Ongkir": 0.0007407388726951591,
+   "B Harga": -6.44636360113321e-06,
+   "R2": 0.1116679747959698,
+   "Selisih waktu (hari)": 6.7927865133564485,
+   "p Welch": 0.0
+  },
+  "Tanpa waktu kirim 0 hari": {
+   "N": 98871.0,
+   "rho Waktu": -0.22539244597253716,
+   "rho Ongkir": -0.043477044620836666,
+   "rho Harga": 0.004857140155539884,
+   "B Waktu": -0.04530075429961477,
+   "B Ongkir": 0.0030235547287371465,
+   "B Harga": 1.9730992332346007e-05,
+   "R2": 0.10292030027666788,
+   "Selisih waktu (hari)": 6.378918058229406,
+   "p Welch": 0.0
+  },
+  "Tanpa nilai ekstrem (> P99)": {
+   "N": 96210.0,
+   "rho Waktu": -0.20653462484611645,
+   "rho Ongkir": -0.03548407224675041,
+   "rho Harga": 0.00956879411811788,
+   "B Waktu": -0.051768488114474466,
+   "B Ongkir": 0.00645863423031698,
+   "B Harga": 0.00012167136708789855,
+   "R2": 0.08892424556855472,
+   "Selisih waktu (hari)": 4.842432388077,
+   "p Welch": 0.0
+  }
+ }
+}
