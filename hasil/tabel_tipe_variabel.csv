@@ -1,0 +1,6 @@
+Variabel,Jenis data,Skala pengukuran,Satuan
+ID_Pesanan,Kualitatif (pengenal),Nominal,-
+Harga_Produk,Kuantitatif kontinu,Rasio,BRL
+Ongkos_Kirim,Kuantitatif kontinu,Rasio,BRL
+Waktu_Pengiriman_Hari,Kuantitatif diskrit,Rasio,hari
+Skor_Kepuasan,Kuantitatif diskrit,Ordinal,skor 1-5
