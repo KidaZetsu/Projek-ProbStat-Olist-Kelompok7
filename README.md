@@ -1,4 +1,4 @@
-# Analisis Statistik Pengaruh Harga Produk, Ongkos Kirim, dan Waktu Pengiriman Terhadap Skor Kepuasan Pelanggan E-Commerce (Studi Kasus: Olist Store)
+# Analisis Statistik Deskriptif Harga Produk, Ongkos Kirim, Waktu Pengiriman, dan Skor Kepuasan Pelanggan E-Commerce (Studi Kasus: Olist Store)
 
 Projek Probabilitas dan Statistika (Tahap 3, Pertemuan 6) - Kelompok 7, 3 TI A, Politeknik Caltex Riau.
 Dosen pengampu: Mona Elviyenti, S.Si., M.Si.
@@ -11,9 +11,9 @@ Dosen pengampu: Mona Elviyenti, S.Si., M.Si.
 | Alif Fatan Akhlaqi | 2455301020 |
 
 ## Isi repositori
-- `Projek_ProbStat_Kelompok7_Olist.ipynb` : notebook Google Colab (audit data + seluruh analisis).
+- `Projek_ProbStat_Kelompok7_Olist_Deskriptif.ipynb` : notebook Google Colab (audit data + seluruh analisis).
 - `3TIA_07_ECommerceOlist.xlsx` : dataset (sheet *Data Utama* dan *Kamus Data*), 98.884 baris item pesanan.
-- `hasil/` : keluaran analisis (10 gambar PNG, tabel CSV, `angka_kunci.json`).
+- `hasil/` : keluaran analisis (5 gambar PNG, tabel CSV, `angka_kunci.json`).
 - `Laporan_Projek_Kelompok7.pdf` : laporan projek.
 
 ## Cara menjalankan
